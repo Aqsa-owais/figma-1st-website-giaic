@@ -56,11 +56,11 @@ export default function HomePage() {
         </div>
 
         {/* Card Section */}
-        <div className="grid md:grid-cols-3 gap-8 w-[1200px] pl-40 pr-32 h-[292px] ">
+        <div className="grid md:grid-cols-3 gap-8 w-[1200px] pl-20 h-[292px] ">
           {/* Card 1 */}
           <div className="bg-white p-6  text-gray-800">
             <div className="bg-red-100 w-[50px] h-[50px] rounded-lg"></div>
-            <h3 className="text-3xl font-bold mb-4">Training Courses</h3>
+            <h3 className="text-2xl font-bold mb-4">Training Courses</h3>
             <div className="w-16 h-1 bg-red-500 mb-4"></div>
             <p className="mb-4">
               The gradual accumulation of information about atomic and
@@ -71,7 +71,7 @@ export default function HomePage() {
           {/* Card 2 */}
           <div className="bg-white p-6 text-gray-800">
           <div className="bg-green-300 w-[50px] h-[50px]  rounded-lg"></div>
-            <h3 className="text-3xl font-bold mb-4">2,769 Online Courses</h3>
+            <h3 className="text-2xl font-bold mb-4">2,769 Online Courses</h3>
             <div className="w-16 h-1 bg-red-500 mb-4"></div>
             <p className="mb-4">
               The gradual accumulation of information about atomic and
@@ -82,7 +82,7 @@ export default function HomePage() {
           {/* Card 3 */}
           <div className="bg-blue-400 p-6  text-white">
           <div className="bg-white w-[50px] h-[50px] rounded-lg"></div>
-            <h3 className="text-3xl font-bold mb-4">Advanced Training</h3>
+            <h3 className="text-2xl font-bold mb-4">Advanced Training</h3>
             <div className="w-16 h-1 bg-white mb-4"></div>
             <p className="mb-4">
               The gradual accumulation of information about atomic and
